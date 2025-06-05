@@ -25,7 +25,7 @@ connnectDB();
 
 app.get("/", (req, res, next) => {
   res.status(200).json({
-    message: "Welcome to CPMC. Please visit https://www.cpmcdypcoe.club/",
+    message: "Welcome to CPMC. Please visit https://www.cpmcdypcoe.in/",
   });
 });
 
